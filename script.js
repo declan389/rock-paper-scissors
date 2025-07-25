@@ -5,9 +5,15 @@ function getComputerChoice() {
 let num = getComputerChoice();
 
 const wordMap = {
-    1: "Rock",
-    2: "Paper",
-    3: "Scissors"
+    1: "rock",
+    2: "paper",
+    3: "scissors"
 };
 let result = wordMap[num];
 console.log(result);
+
+
+function getHumanChoice() { 
+  return prompt("Enter rock, paper, or scissors:");
+}
+console.log(getHumanChoice())
